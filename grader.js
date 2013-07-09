@@ -60,7 +60,6 @@ var clone = function(fn) {
     // http://stackoverflow.com/a/6772648
     return fn.bind({});
 };
-es
 if(require.main == module) {
     program
 	.option('-c, --checks <check_file>', 'Path to checks.json', clone(assertFileExists), CHECKSFILE_DEFAULT)
