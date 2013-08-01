@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -98,16 +99,8 @@
       }
     </style>
   </head>
-  <!-- Place this asynchronous JavaScript just before your </body> tag -->
-    <script type="text/javascript">
-      (function() {
-       var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-       po.src = 'https://apis.google.com/js/client:plusone.js';
-       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-     })();
-    </script>
-
   <body>
+
     <!-- Mobile-friendly navbar adapted from example. -->
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -140,25 +133,26 @@
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Firstimz</h1>
+          <h1>Firstimz: Dev Version</h1>
         </div>
       </div> 
       <div class="row-fluid subheading">
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">It can be your first car, first escargot, first date,...</p>
+          <p class="lead">Everyday is full of first times!</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="images/apple_art.jpg" alt="Sam's apple art from  Kindergarten">
+          <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
         </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
+          <div class="row-fluid">
           <div class="span8 offset2">
-            <div class="statistics">
+            <div class="row-fluid statistics">
               <div class="span4">
                 <!-- linediv-l and linediv-r give dividing lines that look
                 different in horizontal and vertical layouts, illustrating
@@ -174,11 +168,12 @@
               </div>
               <div class="span4">
                 <div class="linediv-r">
-                <h3>25</h3> <p>days left</p>
+                <h3>20</h3> <p>days left</p>
                 </div>
               </div>
             </div>
           </div>
+          <div class="row-fluid">
           <div class="span10 offset1">
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
@@ -187,30 +182,24 @@
               <div class="bar bar-warning" style="width: 40%;"></div>
             </div>
           </div>
+          </div>
+          <div class="row-fluid">
           <div class="span6 offset3 order">
             <!-- Standard Bootstrap button. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
             <button class="btn btn-success btn-large">Preorder</button>
           </div>
+          </div>
+          <div class="row-fluid">
           <div class="span8 offset2 social">
             <!-- Social buttons are not included in default Bootstrap. -->
             <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
-            <!--button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button-->
-	    <button class="btn btn-twitter" onclick="window.open(https://twitter.com/intent/tweet?url=http://www.firstimz.com','_system','')"><i class="icon-twitter"></i> | Twitter</button>
+            <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
             <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
-	    <button class="btn btn-googleplus"><i class="icon-google-plus"></i> | google+</button>
-	    <!-- future implement ******
-	  #  <span
-	  #    class="g-signin"
-	  #     data-callback="signinCallback"
-	  #     data-clientid="FIRST_THING"
-	  #     data-cookiepolicy="single_host_origin"
-	  #     data-requestvisibleactions="http://schemas.google.com/AddActivity"
-	  #     data-scope="https://www.googleapis.com/auth/plus.login"
-	  #  </span>
-	  -->
-
+	    <button class="btn btn-googleplus"><i class="icon-google-plus"></i> |google+</button>
           </div>
+          </div>
+        </div>
         </div>
       </div>
 
@@ -220,37 +209,40 @@
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <!--img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300"-->
+	  <img class="img-polaroid" alt="Sam's apple art from  Kindergarten" src="images/apple_art.jpg">
         </div>
         <div class="span5 copy">
           <p>
-            While life may be a game of repetition, from time to time
-            there comes moments never experienced before in your life. 
-	    Some of these events may be so astonishing. Some may happen in 
-  	    an ordinary day and brighten it. Some of them took you by surprise,
-	    yet some may be scheduled by you. In all cases you may want to 
-	    share your experience and if so, here is an opportunity to do so.
-	  </p>
+	    While life may be a game of repetition, from time to time
+            there comes moments never experienced before in your life.
+            Some of these events may be so astonishing. Some may happen in
+            an ordinary day and brighten it. Some of them took you by surprise,
+            yet some may be scheduled by you. In all cases you may want to
+            share your experience and if so, here is an opportunity to do so.
         </div>
       </div>
 
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
-            Why use Firstimz?
-	    <ul>
-	     <li>you can reach more people with your story than if it's tucked in a general purpose social networks or blog.</li>
-	     <li>You can also easily search/browse other first time experiences all in one place.</li>
-	     <li>You can use your existing twitter, facebook or google+ logins to get to it.</li> 
-	     </ul>
-	   </p>
+	     Why use Firstimz?
+            <ul>
+             <li>you can reach more people with your story than if it's tucked in a general purpose social networks or blog.</li>
+             <li>You can also easily search/browse other first time experiences all in one place.</li>
+             <li>You can use your existing twitter, facebook or google+ logins to get to it.</li>
+             </ul>
+          </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300">
         </div>
       </div>
 
-      <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
+
+
+
+ <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
       <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
       <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
       <div class="row-fluid faq">
@@ -267,7 +259,7 @@
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
                     Firstimz is a social networking program for people to share their first time experience
-		    of anything in life.  
+		        of anything in life.  
                   </div>
                 </div>
               </div>
@@ -281,12 +273,12 @@
                 <div id="collapseTwo" class="accordion-body collapse">
                   <div class="accordion-inner">
                     If you already have accounts with twitter, facebook or google+, you can signin using them.
-		    Otherwise, creating a new account is as simple as providing a valid email and a new password.
+		        Otherwise, creating a new account is as simple as providing a valid email and a new password.
                 </div>
                 </div>
               </div>
-	      <div class="accordion-group">
-		<div class="accordion-heading">
+	            <div class="accordion-group">
+		      <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseThree">
                      What is the privacy setup I need to complete?
@@ -296,10 +288,10 @@
                   <div class="accordion-inner">
                     There is no complicated privacy rules to setup in Firstimz.
                     While your account information (email and password) remain private to you alone,
-		    the stories you share remain available to the general public.
-		    You have the option of removing your stories from Firstimz permanently.
-		  </div>
-		  </div>
+		        the stories you share remain available to the general public.
+		        You have the option of removing your stories from Firstimz permanently.
+		      </div>
+		    </div>
               </div>
               <div class="accordion-group">
                 <div class="accordion-heading">
@@ -307,17 +299,17 @@
                      data-parent="#accordion2" href="#collapseFour">
                     In what ways can I share my experiences?
                   </a>
-		  </div>
+		    </div>
 		<div id="collapseFour" class="accordion-body collapse">
                   <div class="accordion-inner">
                     You can express it in a text of upto 500 characters, upload a picture, audio or video
-		    or a combination of all.                  
-		  </div>
+		        or a combination of all.                  
+		      </div>
                 </div>
               </div>
             </div>
-          </div>
-	  </div>
+           </div>
+         </div>
       </div>
 
       <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
